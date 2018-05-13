@@ -1,3 +1,4 @@
 script:
+  -
   asdfsa
   - bundle exec rspec

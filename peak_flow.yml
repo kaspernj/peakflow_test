@@ -1,2 +1,3 @@
+dist: xenial
 script:
   - bundle exec rspec

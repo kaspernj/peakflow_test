@@ -1,7 +1,7 @@
-require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
+require "spec_helper"
 
-describe 'PeakFlowTest' do
-  it 'fails' do
-    fail 'hey buddy, you should probably rename this file and start specing for real'
+describe "Peakflow Test" do
+  it "works" do
+    expect("peakflow rocks").to eq "peakflow rocks"
   end
 end

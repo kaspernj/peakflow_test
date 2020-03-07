@@ -1,5 +1,5 @@
 services:
   postgres:
-    image: postgres
+    image: postgres:9.6
 script:
   - bundle exec rspec

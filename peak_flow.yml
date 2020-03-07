@@ -1,2 +1,5 @@
+services:
+  postgres:
+    image: postgres
 script:
   - bundle exec rspec

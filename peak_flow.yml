@@ -1,5 +1,10 @@
 services:
   postgres:
+    environment:
+      POSTGRES_USER: "user"
+      POSTGRES_PASSWORD: "password"
+      POSTGRES_DB: "database"
     image: postgres:9.6
 script:
+  - bash wait_for_postgres_container.sh
   - bundle exec rspec

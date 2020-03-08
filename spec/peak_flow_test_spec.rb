@@ -19,6 +19,6 @@ describe 'PeakFlowTest' do
       end
     end
 
-    expect(rows).to eq [{count: 1}]
+    expect(rows).to eq [{"count" => "1"}]
   end
 end

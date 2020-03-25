@@ -6,6 +6,7 @@ builds:
       - bundle exec rspec
 environment:
   - FIRST_NAME=Kasper
+rvm: true
 services:
   postgres:
     environment:

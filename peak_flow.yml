@@ -6,6 +6,7 @@ builds:
       - bundle exec rspec
 environment:
   - FIRST_NAME=Kasper
+  - RUBY_VERSION=2.5.7
 rvm: true
 services:
   postgres:

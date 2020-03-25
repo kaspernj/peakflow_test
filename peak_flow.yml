@@ -1,13 +1,14 @@
 environment:
-  RUBY_VERSION: 2.5.5
+  RUBY_VERSION: 2.5.7
 rvm: true
 services:
-  postgres:
+  mysql:
     environment:
-      POSTGRES_USER: build
-      POSTGRES_PASSWORD: my-secret-password
-      POSTGRES_DB: databasename
-    image: postgres:11.4
-    network_mode: host
+      MYSQL_DATABASE: "databasename"
+      MYSQL_USER: "build"
+      MYSQL_PASSWORD: "my-secret-password"
+      MYSQL_ROOT_PASSWORD: "root-password"
+    image: "mysql:5.7.26"
+    network_mode: "host"
 script:
   - bundle exec rspec

@@ -5,7 +5,7 @@ describe 'PeakFlowTest' do
     require "mysql2"
 
     client = Mysql2::Client.new(
-      host: "localhost",
+      host: "127.0.0.1",
       username: "build",
       password: "my-secret-password",
       database: "databasename"

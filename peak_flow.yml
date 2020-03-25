@@ -1,2 +1,13 @@
-script:
-  - bundle exec rspec
+builds:
+  build_1:
+    environment:
+      LAST_NAME=Johansen
+    script:
+      - bundle exec rspec
+environment:
+  - FIRST_NAME=Kasper
+services:
+  postgres:
+    environment:
+      MIDDLE_NAME=Nielsen
+    image: postgres:9.6

@@ -1,2 +1,7 @@
+auth:
+  username: hitestprivatepeakflow
+  password: tyn.dKbrTb2_NkpiJDbJQ8Cc4!JEd2Vey9qCyyK6-A-Rv!hpgPr4i3_Acbk4@Ah4
+base_image: peakflow/private-test
+rvm: true
 script:
   - bundle exec rspec

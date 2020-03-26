@@ -1,7 +1,9 @@
 auth:
   username: hitestprivatepeakflow
-  password: tyn.dKbrTb2_NkpiJDbJQ8Cc4!JEd2Vey9qCyyK6-A-Rv!hpgPr4i3_Acbk4@Ah4
+  password: $DOCKER_HUB_PASSWORD
 base_image: peakflow/private-test
+environment:
+  RUBY_VERSION: 2.5.7
 rvm: true
 script:
   - bundle exec rspec

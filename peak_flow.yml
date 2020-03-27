@@ -1,2 +1,7 @@
+rvm: true
+services:
+  postgres:
+    command: hello world
+    image: postgres
 script:
   - bundle exec rspec

@@ -1,2 +1,5 @@
-script:
-  - bundle exec rspec
+builds:
+  build_1:
+    name: RSpec
+    script:
+      - bundle exec rspec

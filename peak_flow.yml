@@ -1,5 +1,5 @@
 environment:
-  RUBY_VERSION: 2.5.7
+  RUBY_VERSION: 2.7.5
 rvm: true
 services:
   myservice:

@@ -71,11 +71,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.0)
+  bundler
   jeweler (~> 2.0.1)
   rdoc (~> 3.12)
   rspec (~> 3.5.0)
   simplecov
 
 BUNDLED WITH
-   1.16.2
+   2.3.4

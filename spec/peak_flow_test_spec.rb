@@ -1,13 +1,13 @@
-require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
+require "spec_helper"
 require "socket"
 
-describe 'PeakFlowTest' do
+describe "PeakFlowTest" do
   it "translates the hostname to an ip" do
     ip = IPSocket.getaddress("postgres")
     expect(ip).to match /^(\d+)\.(\d+)\.(\d+)\.(\d+)$/
   end
 
-  it 'connects to the postgres database' do
+  it "connects to the postgres database" do
     require "pg"
 
     rows = []

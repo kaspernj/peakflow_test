@@ -42,6 +42,7 @@ GEM
       multi_json (~> 1.3)
       multi_xml (~> 0.5)
       rack (>= 1.2, < 3)
+    pg (1.2.2)
     public_suffix (3.0.3)
     rack (2.0.6)
     rake (12.3.2)
@@ -73,6 +74,7 @@ PLATFORMS
 DEPENDENCIES
   bundler
   jeweler (~> 2.0.1)
+  pg
   rdoc (~> 3.12)
   rspec (~> 3.5.0)
   simplecov

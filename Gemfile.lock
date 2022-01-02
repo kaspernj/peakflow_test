@@ -72,7 +72,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.0)
+  bundler
   jeweler (~> 2.0.1)
   pg
   rdoc (~> 3.12)
@@ -80,4 +80,8 @@ DEPENDENCIES
   simplecov
 
 BUNDLED WITH
+<<<<<<< HEAD
    1.17.3
+=======
+   2.3.4
+>>>>>>> origin/master

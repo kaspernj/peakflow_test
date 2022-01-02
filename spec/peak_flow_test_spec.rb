@@ -1,7 +1,7 @@
-require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
+require "spec_helper"
 
-describe 'PeakFlowTest' do
-  it 'works' do
-    puts 'Hello world'
+describe "PeakFlowTest" do
+  it "works" do
+    puts "Hello world"
   end
 end

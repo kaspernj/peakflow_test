@@ -80,8 +80,4 @@ DEPENDENCIES
   simplecov
 
 BUNDLED WITH
-<<<<<<< HEAD
-   1.17.3
-=======
    2.3.4
->>>>>>> origin/master

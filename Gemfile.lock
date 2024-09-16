@@ -3,6 +3,7 @@ GEM
   specs:
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
+    bson (4.8.2)
     builder (3.2.3)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
@@ -31,6 +32,8 @@ GEM
     json (1.8.6)
     jwt (2.1.0)
     mini_portile2 (2.4.0)
+    mongo (2.11.4)
+      bson (>= 4.4.2, < 5.0.0)
     multi_json (1.13.1)
     multi_xml (0.6.0)
     multipart-post (2.0.0)
@@ -73,6 +76,7 @@ PLATFORMS
 DEPENDENCIES
   bundler
   jeweler (~> 2.0.1)
+  mongo
   rdoc (~> 3.12)
   rspec (~> 3.5.0)
   simplecov

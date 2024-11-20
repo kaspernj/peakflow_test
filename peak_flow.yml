@@ -1,2 +1,14 @@
+environment:
+  RUBY_VERSION: 2.7.5
+rvm: true
+services:
+  mysql:
+    environment:
+      MYSQL_DATABASE: "databasename"
+      MYSQL_USER: "build"
+      MYSQL_PASSWORD: "my-secret-password"
+      MYSQL_ROOT_PASSWORD: "root-password"
+    image: "mysql:8.0.22"
+    network_mode: "host"
 script:
   - bundle exec rspec

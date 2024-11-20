@@ -1,2 +1,13 @@
+environment:
+  RUBY_VERSION: 2.5.5
+rvm: true
+services:
+  postgres:
+    environment:
+      POSTGRES_USER: build
+      POSTGRES_PASSWORD: my-secret-password
+      POSTGRES_DB: databasename
+    image: postgres:11.4
+    network_mode: host
 script:
   - bundle exec rspec

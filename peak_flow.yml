@@ -1,2 +1,9 @@
+environment:
+  RUBY_VERSION: 2.7.5
+rvm: true
+services:
+  postgres:
+    command: hello world
+    image: postgres:11.4
 script:
   - bundle exec rspec

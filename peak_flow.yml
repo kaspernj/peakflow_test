@@ -1,2 +1,11 @@
+environment:
+  RUBY_VERSION: 2.7.5
+rvm: true
+services:
+  myservice:
+    auth:
+      username: hitestprivatepeakflow
+      password: $DOCKER_HUB_PASSWORD
+    image: peakflow/private-test
 script:
   - bundle exec rspec
